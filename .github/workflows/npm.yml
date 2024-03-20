@@ -15,7 +15,8 @@ jobs:
         node-version: [20.x]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+      submodules: true
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -24,7 +25,8 @@ jobs:
 
     - name: Build
       run: |
-        npm install |
-        git submodule update --init --recursive. |
-        sh ./compress.sh |
+        npm install
+    - name: Hashing&Manifest
+      run: |
+        sh ./compress.sh &&
         npm run start
