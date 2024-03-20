@@ -1,1 +1,8 @@
-for dir in ./packages/*; do (tar -cza -f "$dir.tar.gz" ./packages/$dir/module/*); done
+(
+    cd ./packages/
+    for dir in ./*; do (echo $dir); done
+    for dir in ./*; do (
+        cd $dir/module
+        tar -cza -f "../../../$dir.tar.gz" *
+    ); done
+)
