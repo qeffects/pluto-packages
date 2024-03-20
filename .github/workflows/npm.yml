@@ -31,3 +31,8 @@ jobs:
       run: |
         sh ./compress.sh &&
         npm run start
+    - name: Commit Metadata
+      uses: stefanzweifel/git-auto-commit-action@v4.16.0
+      with:
+        commit_message: "Update submodule manifests"
+        file_pattern: packages/*/manifest.json
