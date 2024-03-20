@@ -1,0 +1,1 @@
+for dir in ./packages/*; do (tar -cza -f "$dir.tar.gz" ./packages/$dir/module/*); done

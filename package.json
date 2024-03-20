@@ -1,0 +1,23 @@
+{
+  "name": "selene-packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./start.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qeffects/selene-packages.git"
+  },
+  "author": "qfx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qeffects/selene-packages/issues"
+  },
+  "homepage": "https://github.com/qeffects/selene-packages#readme",
+  "dependencies": {
+    "cross-zip": "^4.0.1"
+  }
+}
