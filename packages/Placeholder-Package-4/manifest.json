@@ -1,0 +1,23 @@
+{
+    "name": "Placeholder-Package-4",
+    "author": {
+        "name": "qfx",
+        "github": "",
+        "email": ""
+    },
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "Another placeholder package3",
+    "icon": "default",
+    "runtime": "LUAJIT2.1",
+    "framework": "love11.3",
+    "dependencies": {},
+    "documentation": "",
+    "tags": [],
+    "latestCommit": "0ec4026fb0a90c535acc0715a1fb4a270b732829",
+    "allCommitHashes": [
+        "0ec4026fb0a90c535acc0715a1fb4a270b732829"
+    ],
+    "hash": "4b398d4620f4fb9ad44db2ac9cc878174a410999c769e72b624d503e43449ed1",
+    "size": 719
+}
