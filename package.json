@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/qeffects/selene-packages#readme",
   "dependencies": {
-    "cross-zip": "^4.0.1"
+    "cross-zip": "^4.0.1",
+    "simple-git": "^3.23.0"
   }
 }
