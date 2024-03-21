@@ -27,7 +27,8 @@ jobs:
 
     - name: Build
       run: |
-        npm install
+        npm install &&
+        git submodule update --init --recursive
     - name: Hashing&Manifest
       run: |
         sh ./compress.sh &&
