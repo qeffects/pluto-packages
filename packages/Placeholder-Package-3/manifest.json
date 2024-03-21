@@ -11,13 +11,18 @@
     "icon": "default",
     "runtime": "LUAJIT2.1",
     "framework": "love11.3",
-    "dependencies": {},
+    "dependencies": {
+        "Placeholder-Package-4": {
+            "latest": true
+        }
+    },
     "documentation": "",
     "tags": [],
-    "latestCommit": "200ba0e1353df8cba542e966a8f974fd3e1451dc",
+    "latestCommit": "bfe9871c861a405cc38143440adc31eccb589242",
     "allCommitHashes": [
+        "bfe9871c861a405cc38143440adc31eccb589242",
         "200ba0e1353df8cba542e966a8f974fd3e1451dc"
     ],
-    "hash": "49a85f3869aaf9113dbec29c0549d4d5275594cd6adacc96684e3c42f6cc491c",
-    "size": 719
+    "hash": "f1d53e5a34205a7f95993628bf8c159901b10f91336ed6e8426b77cb22763ed7",
+    "size": 738
 }
