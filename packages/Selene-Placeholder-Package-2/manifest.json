@@ -13,13 +13,15 @@
     "framework": "love11.3",
     "dependencies": {},
     "documentation": "",
-    "tags": [],
+    "tags": [
+        "v1.0"
+    ],
     "latestCommit": "cb3bbec53d9d258857db276d2f3c54f6a8763b6f",
     "allCommitHashes": [
         "cb3bbec53d9d258857db276d2f3c54f6a8763b6f",
         "d840a990d6b39306760dd60405971c619148b4de",
         "30176ecf8fa657456d30a808b8b121c82baeabee"
     ],
-    "hash": "629670c7be9d66b1b51426063cf1c6936676d90e703e98c2a6534fce993978dd",
-    "size": 719
+    "hash": "46064f97ad6ad114d21f5e31815d92312ae7e18ea97f23a0c6be90accd95e329",
+    "size": 717
 }
