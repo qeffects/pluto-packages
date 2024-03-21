@@ -11,13 +11,18 @@
     "icon": "default",
     "runtime": "LUAJIT2.1",
     "framework": "love11.3",
-    "dependencies": {},
+    "dependencies": {
+        "Selene-Placeholder-Package-2": {
+            "latest": true
+        }
+    },
     "documentation": "",
     "tags": [],
-    "latestCommit": "0ec4026fb0a90c535acc0715a1fb4a270b732829",
+    "latestCommit": "92283c10de16e62103a8ca423369ffb618f1600e",
     "allCommitHashes": [
+        "92283c10de16e62103a8ca423369ffb618f1600e",
         "0ec4026fb0a90c535acc0715a1fb4a270b732829"
     ],
-    "hash": "bb842d675f0b13266f828666a05828359ef8c157e3842ade1382206886f64d4a",
-    "size": 720
+    "hash": "11b6febd818dfb1792c1f20c35925353832eb903e19fbca948cf8b3c8f8886ae",
+    "size": 736
 }
