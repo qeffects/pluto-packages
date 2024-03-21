@@ -23,8 +23,9 @@ for (let index = 0; index < packages.length; index++) {
 
     const git = simpleGit("./packages/"+val+"/module/");
 
-    module.tags = JSON.stringify(await git.tags());
+    module.tags = (await git.tags()).all;
     module.latestCommit = (await git.log()).latest.hash;
+    module.allCommitHashes = (await git.log()).all.map((v) => (v.hash));
 
     module.hash = hash;
     module.size = zipFile.byteLength;
