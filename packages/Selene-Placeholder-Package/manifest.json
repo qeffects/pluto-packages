@@ -13,8 +13,11 @@
     "framework": "love11.3",
     "dependencies": {},
     "documentation": "",
-    "tags": "{\"all\":[]}",
+    "tags": [],
     "latestCommit": "2c367acbcbdf9826f3cbd68bcb4e34763cf2a6c1",
-    "hash": "9ecb47b5f7d036d15c69cd5a09f31d9aae9b92fea622ed9793f3c0f724f867df",
-    "size": 699
+    "allCommitHashes": [
+        "2c367acbcbdf9826f3cbd68bcb4e34763cf2a6c1"
+    ],
+    "hash": "f8de9e351945c65d99d3c09fb1a02ee046fb5826e9b7043324d05ba87aaa41bc",
+    "size": 696
 }
