@@ -1,15 +1,8 @@
-import { zipSync } from "cross-zip";
 import { createHash } from "node:crypto";
 import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import simpleGit from "simple-git";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 const packages = await fs.readdir("./packages");
-
 
 const hashes = [];
 
