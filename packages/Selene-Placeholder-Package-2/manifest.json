@@ -1,1 +1,20 @@
-{"name":"Selene-Placeholder-Package-2","author":{"name":"qfx","github":"","email":""},"license":"MIT","version":"0.0.1","description":"Another placeholder package","icon":"default","runtime":"LUAJIT2.1","framework":"love11.3","dependencies":{},"documentation":"","hash":"5e929807ebffc8e24c07a22c8a2d5685889eb7a8b960b9d919fdff3ee73092cf","size":708}
+{
+    "name": "Selene-Placeholder-Package-2",
+    "author": {
+        "name": "qfx",
+        "github": "",
+        "email": ""
+    },
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "Another placeholder package",
+    "icon": "default",
+    "runtime": "LUAJIT2.1",
+    "framework": "love11.3",
+    "dependencies": {},
+    "documentation": "",
+    "tags": "{\"all\":[]}",
+    "latestCommit": "d840a990d6b39306760dd60405971c619148b4de",
+    "hash": "852af176e23e7f089c69b91f0455524306e321333d208c1753d2b93af79a43bf",
+    "size": 708
+}
