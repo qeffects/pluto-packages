@@ -9,20 +9,25 @@
     "version": "0.0.1",
     "description": "Another placeholder package3",
     "icon": "default",
-    "runtime": "LUAJIT2.1",
-    "framework": "love11.3",
+    "runtime": "Lua5.4",
+    "frameworks": [
+        "*"
+    ],
     "dependencies": {
         "Placeholder-Package-4": {
             "latest": true
         }
     },
     "documentation": "",
+    "website": "",
+    "github": "",
     "tags": [],
-    "latestCommit": "bfe9871c861a405cc38143440adc31eccb589242",
+    "latestCommit": "b70a7dd8d5b756a48cd2761097d5a90c1ac51b51",
     "allCommitHashes": [
+        "b70a7dd8d5b756a48cd2761097d5a90c1ac51b51",
         "bfe9871c861a405cc38143440adc31eccb589242",
         "200ba0e1353df8cba542e966a8f974fd3e1451dc"
     ],
-    "hash": "9fb263c117f3503518bb865b605c33310ffd6b5a96448e18d256d57e1240617e",
-    "size": 737
+    "hash": "ecb26effb71e3e821895eff4d34dbe16be1248973df5c6c431fd645bf5a7c86a",
+    "size": 746
 }

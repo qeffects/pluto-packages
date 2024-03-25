@@ -2,27 +2,32 @@
     "name": "Selene-Placeholder-Package-2",
     "author": {
         "name": "qfx",
-        "github": "",
-        "email": ""
+        "github": "https://github.com",
+        "email": "qfx@gmail.com"
     },
     "license": "MIT",
     "version": "0.0.1",
     "description": "Another placeholder package",
     "icon": "default",
-    "runtime": "LUAJIT2.1",
-    "framework": "love11.3",
+    "runtime": "Lua5.1",
+    "frameworks": [
+        "*"
+    ],
     "dependencies": {},
-    "documentation": "",
+    "documentation": "https://testsite.net/docs",
+    "website": "https://testsite.net",
+    "github": "https://github.com",
     "tags": [
         "v1.0"
     ],
-    "latestCommit": "083e9ceda082ba0e7fea57783991e43760b6599a",
+    "latestCommit": "f510acb3d1d73486fd7aa1de14a7565943363fef",
     "allCommitHashes": [
+        "f510acb3d1d73486fd7aa1de14a7565943363fef",
         "083e9ceda082ba0e7fea57783991e43760b6599a",
         "cb3bbec53d9d258857db276d2f3c54f6a8763b6f",
         "d840a990d6b39306760dd60405971c619148b4de",
         "30176ecf8fa657456d30a808b8b121c82baeabee"
     ],
-    "hash": "a2aa5c8bccd77b8f9b37d4ea12e3dac0ffe446420ffbd9d1a1630b1288281055",
-    "size": 719
+    "hash": "6a76b3f135187d45f8168d31b363d18e2c4901b4f80b1735123d826fc10ea963",
+    "size": 755
 }

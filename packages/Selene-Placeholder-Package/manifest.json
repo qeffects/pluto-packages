@@ -9,21 +9,26 @@
     "version": "0.0.1",
     "description": "Placeholder package",
     "icon": "default",
-    "runtime": "LUAJIT2.1",
-    "framework": "love11.3",
+    "runtime": "Luajit2.1",
+    "frameworks": [
+        "love11"
+    ],
     "dependencies": {
         "Placeholder-Package-3": {
             "latest": true
         }
     },
     "documentation": "",
+    "website": "",
+    "github": "",
     "tags": [],
-    "latestCommit": "179f31f140e2b2403626867e80ea2e6727bb7cd8",
+    "latestCommit": "3e1a630a14e34b536c2f7cbc834d956e151fe96a",
     "allCommitHashes": [
+        "3e1a630a14e34b536c2f7cbc834d956e151fe96a",
         "179f31f140e2b2403626867e80ea2e6727bb7cd8",
         "2c367acbcbdf9826f3cbd68bcb4e34763cf2a6c1",
         "9527cc64f73c7ce101d5829682434049e1a539ee"
     ],
-    "hash": "089d16548388fd96a233043f6023539189dc181fed05614f41cf0dee7b8be52b",
-    "size": 717
+    "hash": "b5631c6868ffe27fbc6194f5874ad526561549c6ff44fe7c1b8036f7cf402193",
+    "size": 731
 }
