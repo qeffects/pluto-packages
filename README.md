@@ -2,7 +2,7 @@
 
 This repo acts as the list of all global pluto packages that can be installed through the CLI tool
 
-To add a new package:
+## To add a new package:
 
 Some pre-requisites:
 1. Git locally
@@ -19,3 +19,14 @@ Some pre-requisites:
 - If all is successful, push the branch changes to your fork
 - And finally create a pull request pointing to this project
 - After approval your package should show up in everyone's pluto package lists and be available for installation
+
+## Adapting a library to work with pluto
+
+When your library gets installed to another project it will get put inside an arbitrary folder, this means that you **can't**
+use absolute requires like `require("path.to.whatever")`, if your library is divided in multiple files, you *need* to use relative requires
+
+If you have other pluto modules as dependencies you just need to use the pluto shim file that was generated automatically in your project like `require("pluto")`
+this way no matter the structure of the parent project you can just do `require("someOtherPackageName")`
+
+If you have a single entrypoint file it can be named init.lua and later users can just `require("packageName")`
+Alternatively `require("packageName.arbitraryFile")` will also work
