@@ -7,7 +7,7 @@
     },
     "license": "MIT",
     "version": "1.0.0",
-    "description": "Rehost of classic, a lua class library",
+    "description": "Rehost of classic, a lua OOP library",
     "icon": "default",
     "runtime": "Lua5.1",
     "frameworks": [
@@ -18,8 +18,9 @@
     "website": "",
     "github": "https://github.com/qeffects/classic",
     "tags": [],
-    "latestCommit": "fe6211b317cbe2bfc2e584b44cc94d3efc7fcc59",
+    "latestCommit": "78ab46d8bde0c1319ea131206d286fa8ef10b3fa",
     "allCommitHashes": [
+        "78ab46d8bde0c1319ea131206d286fa8ef10b3fa",
         "fe6211b317cbe2bfc2e584b44cc94d3efc7fcc59",
         "e5610756c98ac2f8facd7ab90c94e1a097ecd2c6",
         "6c96d984a1e9815390c744b18f448428349ea5c2",
@@ -27,6 +28,6 @@
         "d0fbfe39a0e42cc4b75c5bf1611c62ec0faafc48",
         "5f6bc56fc8b761f2c008a693776d4aec6ed62b1d"
     ],
-    "hash": "f7a65c17de63ca392ea1a032ba89e346215b2060dd13cb431ee080c9b06d9d78",
-    "size": 2013
+    "hash": "acb77d24a4d12e33da13846a0ffd1c6040dc00e3eab8d94561763dce5cee1839",
+    "size": 2011
 }
