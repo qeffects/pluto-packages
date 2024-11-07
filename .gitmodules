@@ -1,12 +1,9 @@
-[submodule "packages/Selene-Placeholder-Package-2/module"]
-	path = packages/Selene-Placeholder-Package-2/module
-	url = https://github.com/qeffects/Selene-Placeholder-Package-2.git
-[submodule "packages/Selene-Placeholder-Package/module"]
-	path = packages/Selene-Placeholder-Package/module
-	url = https://github.com/qeffects/Selene-Placeholder-Package.git
-[submodule "packages/Placeholder-Package-3/module"]
-	path = packages/Placeholder-Package-3/module
-	url = https://github.com/qeffects/Placeholder-Package-3.git
-[submodule "packages/Placeholder-Package-4/module"]
-	path = packages/Placeholder-Package-4/module
-	url = https://github.com/qeffects/Placeholder-Package-4.git
+[submodule "packages/json.lua/module"]
+	path = packages/json.lua/module
+	url = https://github.com/qeffects/json.lua.git
+[submodule "packages/classic/module"]
+	path = packages/classic/module
+	url = https://github.com/qeffects/classic.git
+[submodule "packages/batteries/module"]
+	path = packages/batteries/module
+	url = https://github.com/qeffects/batteries.git
