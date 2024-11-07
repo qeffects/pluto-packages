@@ -1,0 +1,32 @@
+{
+    "name": "classic",
+    "author": {
+        "name": "rxi",
+        "github": "https://github.com/rxi",
+        "email": ""
+    },
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "Rehost of classic, a lua class library",
+    "icon": "default",
+    "runtime": "Lua5.1",
+    "frameworks": [
+        "*"
+    ],
+    "dependencies": {},
+    "documentation": "https://github.com/qeffects/classic/blob/master/README.md",
+    "website": "",
+    "github": "https://github.com/qeffects/classic",
+    "tags": [],
+    "latestCommit": "fe6211b317cbe2bfc2e584b44cc94d3efc7fcc59",
+    "allCommitHashes": [
+        "fe6211b317cbe2bfc2e584b44cc94d3efc7fcc59",
+        "e5610756c98ac2f8facd7ab90c94e1a097ecd2c6",
+        "6c96d984a1e9815390c744b18f448428349ea5c2",
+        "2a05ac43aaa6d797c571c8cbef6148f922d3fe07",
+        "d0fbfe39a0e42cc4b75c5bf1611c62ec0faafc48",
+        "5f6bc56fc8b761f2c008a693776d4aec6ed62b1d"
+    ],
+    "hash": "f7a65c17de63ca392ea1a032ba89e346215b2060dd13cb431ee080c9b06d9d78",
+    "size": 2013
+}
