@@ -7,3 +7,6 @@
 [submodule "packages/batteries/module"]
 	path = packages/batteries/module
 	url = https://github.com/qeffects/batteries.git
+[submodule "packages/localStorage/module"]
+	path = packages/localStorage/module
+	url = https://github.com/qeffects/localStorage.git
