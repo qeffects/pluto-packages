@@ -27,6 +27,7 @@ jobs:
       run: |
         npm install &&
         git submodule update --init --recursive
+        git submodule update --remote --merge
     - name: Hashing&Manifest
       run: |
         sh ./compress.sh &&
@@ -35,4 +36,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v4.16.0
       with:
         commit_message: "Update submodule manifests"
-        file_pattern: packages/*/manifest.json
+        file_pattern: "packages/*/manifest.json .gitmodules"
