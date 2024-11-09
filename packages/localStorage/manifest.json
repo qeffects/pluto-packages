@@ -23,11 +23,12 @@
     "website": "",
     "github": "https://github.com/qeffects/localStorage",
     "tags": [],
-    "latestCommit": "e48ba53567007aa332b7114e797abb930cdf8099",
+    "latestCommit": "85906b288038953efaea0ad8617829c40ede1d3b",
     "allCommitHashes": [
+        "85906b288038953efaea0ad8617829c40ede1d3b",
         "e48ba53567007aa332b7114e797abb930cdf8099",
         "61ccd33f710e80f8d80220a99319ce1da076b252"
     ],
-    "hash": "d2aa0533da5f8b36116078f15f639986dacc0ec24e0e32d386b63db283768c84",
-    "size": 2457
+    "hash": "bb5969ac090f1b2490b2b61c329a0e5bd8f473ba05dddb2fc0a5d832b3a8cb30",
+    "size": 2462
 }
