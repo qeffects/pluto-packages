@@ -30,3 +30,7 @@ this way no matter the structure of the parent project you can just do `require(
 
 If you have a single entrypoint file it can be named init.lua and later users can just `require("packageName")`
 Alternatively `require("packageName.arbitraryFile")` will also work
+
+## Template repo
+
+I made a template repository to initiate a basic pluto module here: https://github.com/qeffects/plutoTemplate, feel free to use it
